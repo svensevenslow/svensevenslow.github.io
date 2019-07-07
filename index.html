@@ -1,32 +1,187 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset = "utf-8">
-	<title>Svensevenslow - Home</title>
-	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
-	<link rel = "stylesheet" href = "bar.css">
-	
-</head>
-<body>
-	<div class="topnav" id="myTopnav">
-		<a href = "index.html">Home</a></li>
-		<a href = "skills.html">Skill set</a></li>
-		<a href = "handles.html">Programmer Profile</a></li>
-	        <a href = "https://svensevenslow.wordpress.com/" target = "_blank">Blog</a></li>
-	</div>
-	<img src = "my_pic.jpg" align="left" height="400" hspace="30" vspace="30">
-	<article>
-		<h1><center>Kainaat Singh</center></h1>
-		
-		<h2>About Me </h2>
-		Pursuing B.tech in Computer Science <br>
-	        <ol>	
-			<li> Programming Enthusiast </li>
-			<li> Violinst </li>
-			<li> Golfer </li>
-		
-		</ol>
-		Did you know I draw manga in my free time?<br>
-	</article>
-</body>
+   <title>Kainaat Singh</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="stylesheet.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+      body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+   </style>
+   <body class="w3-light-grey w3-content" style="max-width:1600px">
+      <!-- Sidebar/menu -->
+      <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar">
+         <br>
+         <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+            <i class="fa fa-remove"></i>
+            </a>
+            <img src="my_photo.jpg" style="width:45%;" class="w3-round"><br><br>
+            <h4><b>Kainaat Singh</b></h4>
+            <p class="w3-text-grey">Just your regular CS student</p>
+         </div>
+         <div class="w3-bar-block">
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-user fa-fw w3-margin-right"></i>About</a> 
+            <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw w3-margin-right"></i>Technical Skills</a> 
+            <a href="#experience" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-briefcase fa-fw w3-margin-right"></i>Experience</a>
+            <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-wrench fa-fw w3-margin-right"></i>Projects</a>
+	    <a href="resume.pdf" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-archive fa-fw w3-margin-right"></i>Résumé</a>
+         </div>
+         <div class="w3-panel w3-large">
+            <a href="https://github.com/svensevenslow" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-padding "><i class="fa fa-github-square w3-hover-opacity"></i></a>
+            <a href="https://gitlab.gnome.org/svensevenslow" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-padding "><i class="fa fa-gitlab w3-hover-opacity"></i></a>
+            <a href="https://in.linkedin.com/in/kainaat-singh-377068141" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-padding "><i class="fa fa-linkedin w3-hover-opacity"></i></a> 	
+         </div>
+      </nav>
+      <div class="w3-main" style="margin-left:300px">
+      <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+         <header id="about">
+         <h4><b>About</b></h4>
+         <p>Currently I'm pursuing my Bachelor's in Computer Science and Engineering. I am always eager to try out new technologies. 
+	Difficult challenges pique my interest. Tougher tasks always provide me with a better learning experience.</p>
+         <hr>
+         <header id = "skills">
+         <h4><b>Technical Skills</b></h4>
+         <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+               <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                  <li class="w3-black w3-xlarge w3-padding-32">Languages</li>
+                  <li class="w3-padding-16">
+                     <h6>
+                     Rust, Scala, Python, SQL
+                     <h6>
+                     <span class="w3-opacity">Basic</span>
+                  </li>
+                  <li class="w3-padding-16">
+                     <h6>
+                     C/C++, Bash, Java
+                     <h6>
+                     <span class="w3-opacity">Intermdeiate</span>
+                  </li>
+               </ul>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+               <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                  <li class="w3-teal w3-xlarge w3-padding-32">Environment</li>
+                  <li class="w3-padding-16">
+                     <h6>
+                     Fedora, Ubuntu, Windows
+                     <h6>
+                     <span class="w3-opacity">Operating System</span>
+                  </li>
+                  <li class="w3-padding-16">
+                     <h6>
+                     Android Studio, Eclipse
+                     <h6>
+                     <span class="w3-opacity">IDE</span>
+                  </li>
+                  <li class="w3-padding-16">
+                     <h6>
+                     Git
+                     <h6>
+                     <span class="w3-opacity">Version Control</span>
+                  </li>
+                  <li class="w3-padding-16">
+                     <h6>
+                     Vim, Notepad++
+                     <h6>
+                     <span class="w3-opacity">Text Editors</span>
+                  </li>
+               </ul>
+            </div>
+            <div class="w3-third">
+               <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+                  <li class="w3-black w3-xlarge w3-padding-32">Misc</li>
+                  <li class="w3-padding-16">
+                     <h6>
+                     SpringBoot, Hbase, Spark,Flask
+                     <h6>
+                     <span class="w3-opacity">Frameworks</span>
+                  </li>
+                  <li class="w3-padding-16">
+                     <h6>
+                     Hbase
+                     <h6>
+                     <span class="w3-opacity">Database</span>
+                  </li>
+                  <li class="w3-padding-16">
+                     <h6>
+                     Clap, Mercurial, Couchbase, Latex
+                     <h6>
+                     <span class="w3-opacity">Things I have dabbled in</span>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <hr>
+      <header id="experience">
+      <h4><b>Experience</b></h4>
+      <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+         <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-black w3-xlarge w3-padding-32">American Express</li>
+            <li class="w3-padding-16">Technology Intern</li>
+            <li>January 2019 - June 2019</li>
+            <h2>Smart Monitoring</h2>
+            <span class="w3-opacity">Project</span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+               <a href="#smartMonitoring" onclick="w3_close()"><button class="w3-button w3-teal w3-padding-large w3-hover-black">Learn More</button></a>
+            </li>
+         </ul>
+      </div>
+      <div class="w3-row-padding">
+      <h4 id = "projects"><b>Projects<br></b></h4>
+      <div class="w3-third w3-container w3-margin-bottom">
+         <img src="runner.png" alt="Dungeon Runner" style="width:100%" class="w3-hover-opacity">
+         <div class="w3-container w3-white">
+            <p><b>Dungeon Runner</b></p>
+            <p align = "justify">It is a platform game created in Java and ported to Android. It involves guiding a sprite to jump between suspended platforms.The aim of the game
+               is to collect stars in Level 1 and the golden fruit in Level 2. The player scores a point evenry time he collect a star/golden fruit. Falling off the
+               platform ends the game. The sprite uses a pistol-sword to shoot enemies.
+            </p>
+         </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+         <div class="w3-container w3-white">
+            <p><b>Intelligent Traffic Lights</b></p>
+            <p align = "justify">As part of the Infosys Hackathon an Intelligent Traffic Lights system was created. Crowd-sourcing was used to collect real-time data
+               using an Android application for GPS tracking. The crowd sourced data was sent to a locally hosted server written in Flask. The collected data
+               was used to calculate the modified green and red light time. The changed red and green light was displayed in the terminal.
+            </p>
+         </div>
+      </div>
+      <div class="w3-third w3-container">
+         <div class="w3-container w3-white">
+            <p><b>Pool on Wheels</b></p>
+            <p align = "justify">It is a transport pooling system for hostellers. It consists of an Android application at the front end written in Java. Firebase has 
+               been used to maintain a real time database
+            </p>
+         </div>
+      </div>
+      <div class="w3-row-padding">
+         <div class="w3-third w3-container w3-margin-bottom">
+            <div class="w3-container w3-white">
+               <p><b>Cinephile</b></p>
+               <p align = "justify">It is a movie recommendation sytem. The implementation of this system began with the Collaborative filtering approach in which recommendations are
+                  based on similarity of items or similarity among users tastes.  Among many collaborative filtering
+                  techniques, Matrix Factorisation has proven to be effective in this field. One such matrix
+                  factorisation algorithm is the Alternating Least Squares which has been utilized in this system. This algorithm is
+                  efficient in tackling the Cold Start problem and Sparse Matrix data
+               </p>
+            </div>
+         </div>
+         <div class="w3-third w3-container w3-margin-bottom">
+            <img src="amex.png" alt="Amex"  style="width:300px;height:180px;" class="w3-hover-opacity">
+            <div class="w3-container w3-white" id = "smartMonitoring">
+               <p><b>Smart Monitoring</b></p>
+               <p align = "justify">Smart Monitoring, an industry-leading risk management approach, transformed a process that previously
+                  relied on manual testing to create an integrated data-driven platform that detects and addresses potential risks in real time
+               </p>
+            </div>
+         </div>
+      </div>
+   </body>
 </html>
